@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h3 className="text-[11px] font-semibold text-white/40 uppercase tracking-widest mb-5">
+            <h3 className="text-[11px] font-semibold text-white/60 uppercase tracking-widest mb-5">
               Navegación
             </h3>
             <ul className="space-y-2.5">
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-[11px] font-semibold text-white/40 uppercase tracking-widest mb-5">
+            <h3 className="text-[11px] font-semibold text-white/60 uppercase tracking-widest mb-5">
               Contacto
             </h3>
             <div className="space-y-2.5">
