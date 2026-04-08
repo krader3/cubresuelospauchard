@@ -27,7 +27,7 @@ export default function Features() {
   const [ref, inView] = useInView()
 
   return (
-    <section className="py-24 lg:py-32 bg-[#ebe8e1]">
+    <section className="py-24 lg:py-32 bg-[#f5f3ee]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-[5fr_7fr] gap-16 items-start">
 
@@ -50,7 +50,7 @@ export default function Features() {
             {features.map(({ Icon, title, desc }, i) => (
               <div
                 key={title}
-                className={`bg-[#f5f3ee] rounded-3xl p-7 reveal reveal-delay-${i + 1} ${inView ? 'visible' : ''}`}
+                className={`bg-white rounded-3xl p-7 border border-[#e8e5df] reveal reveal-delay-${i + 1} ${inView ? 'visible' : ''}`}
               >
                 <div className="w-11 h-11 bg-[#e8f0ea] rounded-2xl flex items-center justify-center text-[#3d6b47] mb-5">
                   <Icon />
