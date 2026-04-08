@@ -57,8 +57,7 @@ export default function Contact() {
 
           {/* Right — map */}
           <div
-            className="rounded-3xl overflow-hidden shadow-[0_4px_24px_-4px_rgba(0,0,0,0.08)]"
-            style={{ height: '420px' }}
+            className="rounded-3xl overflow-hidden shadow-[0_4px_24px_-4px_rgba(0,0,0,0.08)] h-64 sm:h-80 lg:h-[420px]"
           >
             <iframe
               title="Ubicación de Cubresuelos Pauchard"
