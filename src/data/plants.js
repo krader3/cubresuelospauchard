@@ -1,4 +1,5 @@
 import tiquiImg   from '../../assets/Prato-Lippia-nodiflora-dettaglio-fiori-KnAkuChF.jpg'
+import rayitosImg from '../../assets/rayitos.jpg'
 import cotulaImg  from '../../assets/cotula-BKO0TsRY.webp'
 // Note: filename has a space — Vite handles it correctly
 import falkiaImg  from '../../assets/falkia repens-ByP6ONzR.webp'
@@ -100,5 +101,13 @@ export const plants = [
     image: docaImg,
     description: 'Suculenta nativa de rápido crecimiento con flores rosadas. Excelente para taludes costeros y suelos erosionados. Sin riego una vez establecida.',
     tags: ['Sol pleno', 'Sin riego', 'Nativa', 'Taludes'],
+  },
+  {
+    id: 'rayitos',
+    name: 'Rayitos',
+    scientific: 'Gazania rigens',
+    image: rayitosImg,
+    description: 'Flores amarillas y naranjas que iluminan cualquier jardín. Muy resistente a la sequía y al calor. Ideal para bordes, rocallas y zonas de bajo mantenimiento.',
+    tags: ['Sol pleno', 'Muy bajo riego', 'Floración'],
   },
 ]

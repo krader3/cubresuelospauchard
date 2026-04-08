@@ -85,16 +85,16 @@ function PlantCard({ plant, isActive, onEnter, onLeave }) {
       tabIndex={0}
       aria-label={`${plant.name} — ${plant.scientific}`}
     >
-      {/* Image */}
+      {/* Image — absolute inset pattern guarantees full fill */}
       <div
-        className={`overflow-hidden ${
+        className={`relative overflow-hidden ${
           plant.featured ? 'h-64 sm:h-72 lg:h-full lg:min-h-[540px]' : 'h-56 sm:h-60'
         }`}
       >
         <img
           src={plant.image}
           alt={`${plant.name} (${plant.scientific})`}
-          className={`w-full h-full object-cover transition-transform duration-700 ${
+          className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ${
             isActive ? 'scale-[1.06]' : 'scale-100'
           }`}
           loading="lazy"
