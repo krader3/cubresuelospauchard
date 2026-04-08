@@ -28,23 +28,12 @@ export default function Hero() {
         />
       </div>
 
-      {/* ── Gradient overlays — fade video into cream ────────── */}
-      {/* Mobile fade */}
+      {/* ── Gradient overlays ─────────────────────────────────── */}
+      {/* Solid cream block that covers the text area completely */}
       <div
-        className="md:hidden absolute left-0 right-0 pointer-events-none z-10"
+        className="absolute inset-0 pointer-events-none z-10"
         style={{
-          top: '120px',
-          height: '220px',
-          background: 'linear-gradient(to bottom, #f5f3ee 20%, transparent)',
-        }}
-      />
-      {/* Desktop fade */}
-      <div
-        className="hidden md:block absolute left-0 right-0 pointer-events-none z-10"
-        style={{
-          top: '200px',
-          height: '360px',
-          background: 'linear-gradient(to bottom, #f5f3ee 10%, transparent)',
+          background: 'linear-gradient(to bottom, #f5f3ee 38%, transparent 62%)',
         }}
       />
       {/* Bottom vignette so the species bar text is readable */}
