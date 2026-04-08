@@ -78,14 +78,14 @@ export default function Hero() {
           <span className="sm:hidden">
             Cubre tu jardín.<br />
             Transforma tu espacio.<br />
-            <span className="bg-gradient-to-r from-[#1c1917] via-[#78716c] to-[#a89f97] bg-clip-text text-transparent">
+            <span className="text-[#1c1917]">
               Plantas que perduran.
             </span>
           </span>
           {/* Desktop — 2 lines */}
           <span className="hidden sm:inline">
             Cubre tu jardín. Transforma tu espacio.<br />
-            <span className="bg-gradient-to-r from-[#1c1917] via-[#78716c] to-[#a89f97] bg-clip-text text-transparent">
+            <span className="text-[#1c1917]">
               Plantas que perduran.
             </span>
           </span>
@@ -93,7 +93,7 @@ export default function Hero() {
 
         {/* Subheading */}
         <p
-          className="text-base sm:text-lg md:text-xl text-[#78716c] mb-7 sm:mb-9 max-w-2xl px-2 animate-fade-in-up"
+          className="text-base sm:text-lg md:text-xl text-[#1c1917] mb-7 sm:mb-9 max-w-2xl px-2 animate-fade-in-up"
           style={{ animationDelay: '0.4s' }}
         >
           Especialistas en plantas cubresuelos de alta calidad. Adaptadas al clima chileno, resistentes y de bajo mantenimiento.
