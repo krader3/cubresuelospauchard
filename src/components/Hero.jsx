@@ -28,12 +28,17 @@ export default function Hero() {
         />
       </div>
 
-      {/* ── Gradient overlays ─────────────────────────────────── */}
-      {/* Solid cream block that covers the text area completely */}
+      {/* ── Overlays ──────────────────────────────────────────── */}
+      {/* Base tint over the whole video so nunca compite con el texto */}
+      <div
+        className="absolute inset-0 pointer-events-none z-10"
+        style={{ background: 'rgba(245,243,238,0.45)' }}
+      />
+      {/* Strong cream gradient: sólido en zona de texto, fade al video */}
       <div
         className="absolute inset-0 pointer-events-none z-10"
         style={{
-          background: 'linear-gradient(to bottom, #f5f3ee 38%, transparent 62%)',
+          background: 'linear-gradient(to bottom, #f5f3ee 50%, rgba(245,243,238,0.0) 78%)',
         }}
       />
       {/* Bottom vignette so the species bar text is readable */}
