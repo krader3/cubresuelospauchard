@@ -80,9 +80,14 @@ export default function Footer() {
           <p className="text-[#a89f97] text-xs">
             © {YEAR} Cubresuelos Pauchard. Todos los derechos reservados.
           </p>
-          <p className="text-[#a89f97] text-xs">
-            Hecho con cuidado en Chile
-          </p>
+          <a
+            href="https://www.jaimecofre.cl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#a89f97] hover:text-white transition-colors text-xs"
+          >
+            Hecho con amor ❤️&nbsp; por Jaime Cofré
+          </a>
         </div>
       </div>
     </footer>

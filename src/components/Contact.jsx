@@ -61,7 +61,7 @@ export default function Contact() {
           >
             <iframe
               title="Ubicación de Cubresuelos Pauchard"
-              src="https://maps.google.com/maps?q=Cubresuelos+Pauchard+Chile&t=&z=6&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Papa+Beato+Paulo+VI+416,+Padre+Hurtado,+Chile&output=embed&z=16"
               width="100%"
               height="100%"
               style={{ border: 0, display: 'block' }}
