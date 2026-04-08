@@ -75,9 +75,7 @@ export default function Plants() {
 function PlantCard({ plant, isActive, onEnter, onLeave }) {
   return (
     <article
-      className={`group relative rounded-3xl overflow-hidden bg-[#ebe8e1] cursor-pointer select-none ${
-        plant.featured ? 'lg:row-span-2' : ''
-      }`}
+      className="group relative rounded-3xl overflow-hidden bg-[#ebe8e1] cursor-pointer select-none"
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
       onFocus={onEnter}
@@ -86,11 +84,7 @@ function PlantCard({ plant, isActive, onEnter, onLeave }) {
       aria-label={`${plant.name} — ${plant.scientific}`}
     >
       {/* Image — absolute inset pattern guarantees full fill */}
-      <div
-        className={`relative overflow-hidden ${
-          plant.featured ? 'h-64 sm:h-72 lg:h-full lg:min-h-[540px]' : 'h-56 sm:h-60'
-        }`}
-      >
+      <div className="relative overflow-hidden h-56 sm:h-60">
         <img
           src={plant.image}
           alt={`${plant.name} (${plant.scientific})`}
