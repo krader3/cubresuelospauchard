@@ -26,7 +26,7 @@ export default function About() {
   return (
     <section
       id="nosotros"
-      className="scroll-mt-16 bg-[#f5f3ee] py-24 lg:py-32 overflow-hidden"
+      className="scroll-mt-16 bg-[#ebe8e1] py-24 lg:py-32 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
