@@ -39,13 +39,14 @@ export default function Plants() {
           - Rest fill in naturally
         */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {plants.map((plant) => (
+          {plants.map((plant, i) => (
             <PlantCard
               key={plant.id}
               plant={plant}
               isActive={active === plant.id}
               onEnter={() => setActive(plant.id)}
               onLeave={() => setActive(null)}
+              priority={i === 0}
             />
           ))}
         </div>
@@ -72,7 +73,7 @@ export default function Plants() {
   )
 }
 
-function PlantCard({ plant, isActive, onEnter, onLeave }) {
+function PlantCard({ plant, isActive, onEnter, onLeave, priority }) {
   return (
     <article
       className="group relative rounded-3xl overflow-hidden bg-[#ebe8e1] cursor-pointer select-none"
@@ -91,7 +92,8 @@ function PlantCard({ plant, isActive, onEnter, onLeave }) {
           className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ${
             isActive ? 'scale-[1.06]' : 'scale-100'
           }`}
-          loading="lazy"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchpriority={priority ? 'high' : 'auto'}
         />
       </div>
 

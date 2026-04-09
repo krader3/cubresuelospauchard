@@ -6,35 +6,49 @@ const WA_MSG    = encodeURIComponent(
 // Plant names styled as "partner logos" at the bottom
 const speciesNames = ['Tiqui Tiqui', 'Cótula', 'Falkia', 'Dymondia', 'Doca']
 
+// Detectar mobile una sola vez al cargar — evita cargar el video de 5.8MB en mobile
+const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
+
 export default function Hero() {
   return (
     <section
       id="inicio"
       className="relative min-h-[100dvh] overflow-hidden bg-[#f5f3ee] flex flex-col"
     >
-      {/* ── Background video ──────────────────────────────────── */}
+      {/* ── Background media: imagen en mobile, video en desktop ──── */}
       <div
         className="absolute inset-0 pt-[120px] md:pt-[200px]"
         aria-hidden="true"
       >
-        <video
-          className="w-full h-full object-cover"
-          src="/hero.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-        />
+        {isMobile ? (
+          <img
+            src="/hero-poster.webp"
+            alt=""
+            className="w-full h-full object-cover"
+            fetchpriority="high"
+            decoding="async"
+          />
+        ) : (
+          <video
+            className="w-full h-full object-cover"
+            src="/hero.mp4"
+            poster="/hero-poster.webp"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+          />
+        )}
       </div>
 
       {/* ── Overlays ──────────────────────────────────────────── */}
-      {/* Base tint over the whole video so nunca compite con el texto */}
+      {/* Base tint over the whole background */}
       <div
         className="absolute inset-0 pointer-events-none z-10"
         style={{ background: 'rgba(245,243,238,0.45)' }}
       />
-      {/* Strong cream gradient: sólido en zona de texto, fade al video */}
+      {/* Strong cream gradient: sólido en zona de texto, fade al fondo */}
       <div
         className="absolute inset-0 pointer-events-none z-10"
         style={{

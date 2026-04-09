@@ -91,13 +91,14 @@
   }
   </script>
 
-  <!-- Fonts — preconnect + display=swap para evitar FOIT -->
+  <!-- Fonts — carga no bloqueante, solo 3 pesos esenciales -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" /></noscript>
 
-  <!-- Preload hero video -->
-  <link rel="preload" href="/hero.mp4" as="video" type="video/mp4" />
+  <!-- Preload hero poster para mobile (imagen estática, ~50KB vs 5.8MB del video) -->
+  <link rel="preload" href="/hero-poster.webp" as="image" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>

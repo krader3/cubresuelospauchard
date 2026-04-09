@@ -1,16 +1,16 @@
-import tiquiImg   from '../../assets/Prato-Lippia-nodiflora-dettaglio-fiori-KnAkuChF.jpg'
-import rayitosImg from '../../assets/rayitos.jpg'
+import tiquiImg   from '../../assets/Prato-Lippia-nodiflora-dettaglio-fiori-KnAkuChF.webp'
+import rayitosImg from '../../assets/rayitos.webp'
 import cotulaImg  from '../../assets/cotula-BKO0TsRY.webp'
 // Note: filename has a space — Vite handles it correctly
 import falkiaImg  from '../../assets/falkia repens-ByP6ONzR.webp'
 import dymondiaImg from '../../assets/dymondia-BqI_t1LD.webp'
-import doquillaImg from '../../assets/doquilla-D4ESuPL5.jpg'
-import hiedraImg  from '../../assets/hiedra-BJ9mUg0-.jpg'
+import doquillaImg from '../../assets/doquilla-D4ESuPL5.webp'
+import hiedraImg  from '../../assets/hiedra-BJ9mUg0-.webp'
 import festucaImg from '../../assets/festuca-C3ZmUChx.webp'
-import myoporumImg from '../../assets/myoporum-parvifolium-creeping-boobialla-1-1-DKOV_ZUP.jpg'
-import vitadiniaImg from '../../assets/Vitadinia-DcOQXwZW.jpg'
-import verbenaImg from '../../assets/Verbena_bonariensis-C14ktlZ-.jpg'
-import docaImg    from '../../assets/doca-chilena-c-kerstin-firmin-inaturalist-BBQgvQy2.jpg'
+import myoporumImg from '../../assets/myoporum-parvifolium-creeping-boobialla-1-1-DKOV_ZUP.webp'
+import vitadiniaImg from '../../assets/Vitadinia-DcOQXwZW.webp'
+import verbenaImg from '../../assets/Verbena_bonariensis-C14ktlZ-.webp'
+import docaImg    from '../../assets/doca-chilena-c-kerstin-firmin-inaturalist-BBQgvQy2.webp'
 
 export const plants = [
   {
