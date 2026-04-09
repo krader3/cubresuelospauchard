@@ -26,10 +26,10 @@ export default function Plants() {
             Catálogo
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-[#1c1917] tracking-tight leading-tight mb-4">
-            Plantas cubresuelos
+            Tapizantes y cubresuelos
           </h2>
           <p className="text-[#78716c] text-lg leading-relaxed max-w-[55ch]">
-            Cada especie seleccionada y cultivada en Chile por su adaptación al clima local, resistencia y bajo mantenimiento.
+            La mejor alternativa al césped tradicional. Cada especie seleccionada y cultivada en Chile por su adaptación al clima local, resistencia al pisoteo y bajo mantenimiento.
           </p>
         </div>
 

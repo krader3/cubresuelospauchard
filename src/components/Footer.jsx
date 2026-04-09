@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="font-bold text-white text-[15px] tracking-tight">Cubresuelos Pauchard</span>
             </div>
             <p className="text-[#a89f97] text-sm leading-relaxed max-w-[34ch]">
-              Especialistas en plantas cubresuelos de alta calidad. Transformando jardines en Chile desde hace más de 20 años.
+              Especialistas en tapizantes y cubresuelos. La alternativa al césped más confiable de Chile, con más de 20 años transformando jardines.
             </p>
           </div>
 

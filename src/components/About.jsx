@@ -44,10 +44,10 @@ export default function About() {
               <span className="text-[#3d6b47]">convertida en oficio</span>
             </h2>
             <p className="text-[#78716c] text-lg leading-relaxed mb-5 max-w-[55ch]">
-              Cubresuelos Pauchard nació de un sueño: transformar jardines comunes en espacios verdes vibrantes y sostenibles. Hoy somos referentes en Chile por nuestra experiencia, variedad y compromiso con cada cliente.
+              Cubresuelos Pauchard nació de un sueño: transformar jardines comunes en espacios verdes vibrantes y sostenibles. Hoy somos referentes en Chile en tapizantes y cubresuelos, reconocidos por nuestra experiencia, variedad y compromiso con cada cliente.
             </p>
             <p className="text-[#78716c] leading-relaxed max-w-[55ch]">
-              Llevamos más de dos décadas dedicados al cultivo y comercialización de plantas cubresuelos, acompañando siempre a cada cliente con asesoría personalizada y directa.
+              Llevamos más de dos décadas cultivando y comercializando plantas tapizantes en Chile — la alternativa al césped más elegida por paisajistas y particulares. Acompañamos a cada cliente con asesoría personalizada y directa en cada consulta.
             </p>
           </div>
 

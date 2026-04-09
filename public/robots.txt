@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cubresuelospauchard.cl/sitemap.xml
+Sitemap: https://www.cubresuelospauchard.cl/sitemap.xml

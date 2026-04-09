@@ -110,7 +110,7 @@ export default function Hero() {
           className="text-base sm:text-lg md:text-xl text-[#1c1917] mb-7 sm:mb-9 max-w-2xl px-2 animate-fade-in-up"
           style={{ animationDelay: '0.4s' }}
         >
-          Especialistas en plantas cubresuelos de alta calidad. Adaptadas al clima chileno, resistentes y de bajo mantenimiento.
+          Tapizantes y cubresuelos de alta calidad, adaptados al clima chileno. La alternativa perfecta al césped: resistentes, de bajo mantenimiento y con envíos a todo Chile.
         </p>
 
         {/* CTA */}
